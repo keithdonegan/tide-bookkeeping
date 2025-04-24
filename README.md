@@ -67,19 +67,21 @@ This structure includes all the PHP files from your application, showing the com
    cd tide-expense-tracker
    ```
 
-### Create the database
+2. **Create the database**
 ```
 CREATE DATABASE tide_expense_tracker;
 ```
 
-2. **Import the database schema**
-```bashmysql -u your_username -p tide_expense_tracker < db-schema.sql```
+3. **Import the database schema**
+```
+bashmysql -u your_username -p tide_expense_tracker < db-schema.sql
+```
+
 The db-schema.sql file creates all necessary tables:
 
 - `users` - For authentication
 - `categories` - For transaction categorization (with default categories)
 - `transactions` - For storing all financial transactions
-
 
 ### Configure database connection
 
