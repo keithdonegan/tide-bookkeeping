@@ -44,6 +44,7 @@ A web-based expense tracking application designed to help businesses manage thei
 ├── upload_csv.php            # CSV import functionality
 ├── view_invoice.php          # Invoice viewer
 └── README.md                 # This file
+```
 
 ### Installation
 
