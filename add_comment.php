@@ -1,8 +1,6 @@
 <?php
-session_start();
-
-// !!! IMPORTANT: Ensure this path is correct for your server structure !!!
-require_once __DIR__ . '/includes/db_config.php'; // <-- ADJUST THIS LINE AS NEEDED
+require_once __DIR__ . '/includes/auth.php';
+require_once __DIR__ . '/includes/db_config.php';
 
 // --- Basic Request and Input Validation ---
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {

@@ -1,8 +1,6 @@
 <?php
-session_start();
-
-// !!! IMPORTANT: Ensure this path is correct for your server structure !!!
-require_once __DIR__ . '/includes/db_config.php'; // <-- ADJUST THIS LINE AS NEEDED
+require_once __DIR__ . '/includes/auth.php'; 
+require_once __DIR__ . '/includes/db_config.php';
 
 // --- Basic File Upload Checks ---
 if (!isset($_FILES['csv_file']) || !is_uploaded_file($_FILES['csv_file']['tmp_name']) || $_FILES['csv_file']['error'] !== UPLOAD_ERR_OK) {
