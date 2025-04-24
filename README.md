@@ -85,7 +85,7 @@ The db-schema.sql file creates all necessary tables:
 
 4. **Configure database connection**
 
-Edit includes/db_config.php
+Edit `includes/db_config.php`
 
 ```
 define('DB_HOST', 'localhost');
@@ -95,11 +95,12 @@ define('DB_PASS', 'your_password');
 define('DB_CHARSET', 'utf8mb4');
 ```
 
+5. **Set up upload directories**
 
-
-Set up upload directories
+```
 bashmkdir -p uploads/invoices
 chmod 755 uploads/invoices
+```
 
 Create an admin user
 Create a file called create_admin.php with the following code:
