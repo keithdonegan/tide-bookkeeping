@@ -61,14 +61,16 @@ This structure includes all the PHP files from your application, showing the com
 ### Installation
 
 1. **Clone the repository**
-   ```bash
+   ```
    git clone https://github.com/your-username/tide-expense-tracker.git
    
    cd tide-expense-tracker
    ```
 
 ### Create the database
-```CREATE DATABASE tide_expense_tracker;```
+```
+CREATE DATABASE tide_expense_tracker;
+```
 
 2. **Import the database schema**
 ```bashmysql -u your_username -p tide_expense_tracker < db-schema.sql```
