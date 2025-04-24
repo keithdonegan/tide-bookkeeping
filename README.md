@@ -2,8 +2,6 @@
 
 A web-based expense tracking application designed to help businesses manage their financial transactions from Tide bank accounts. This application allows you to import transaction data, categorize expenses, attach invoices, and maintain proper financial records.
 
-![Tide Expense Tracker](https://your-screenshot-url-here.png)
-
 ## Features
 
 - **CSV Import**: Easily import transaction data from Tide bank statements
