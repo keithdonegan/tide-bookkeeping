@@ -84,8 +84,10 @@ The db-schema.sql file creates all necessary tables:
 - `transactions` - For storing all financial transactions
 
 4. **Configure database connection**
-```
+
 Edit includes/db_config.php
+
+```
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'DBNAME');
 define('DB_USER', 'your_username');
