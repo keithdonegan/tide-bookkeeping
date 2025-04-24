@@ -3,9 +3,9 @@
 
 // --- Database Credentials ---
 define('DB_HOST', 'localhost');     // Or your DB host (e.g., 127.0.0.1)
-define('DB_NAME', 'webamigosco_books');   // Your database name
-define('DB_USER', 'webamigosco_ks82k3');  // Your database username
-define('DB_PASS', '$m[JOIw+UT@A'); // Your database password
+define('DB_NAME', 'DBNAME');   // Your database name
+define('DB_USER', 'DBUSER');  // Your database username
+define('DB_PASS', 'DBUSER'); // Your database password
 define('DB_CHARSET', 'utf8mb4');
 
 // --- PDO Connection Setup ---
