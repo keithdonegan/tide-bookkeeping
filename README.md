@@ -31,7 +31,7 @@ A web-based expense tracking application designed to help businesses manage thei
 - Web server (Apache/Nginx)
 
 ### Project Structure
-tide-expense-tracker/
+`tide-expense-tracker/
 ├── database/                 # Database files
 │   └── schema.sql            # Complete database schema
 ├── includes/                 # Core PHP includes
@@ -43,7 +43,7 @@ tide-expense-tracker/
 ├── login.php                 # User login interface
 ├── upload_csv.php            # CSV import functionality
 ├── view_invoice.php          # Invoice viewer
-└── README.md                 # This file
+└── README.md                 # This file`
 
 ### Installation
 
