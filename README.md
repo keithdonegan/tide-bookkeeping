@@ -33,7 +33,6 @@ A web-based expense tracking application designed to help businesses manage thei
 - Web server (Apache/Nginx)
 
 ### Project Structure
-
 tide-expense-tracker/
 ├── database/                 # Database files
 │   └── schema.sql            # Complete database schema
@@ -163,7 +162,7 @@ Authentication requirements for all pages
 Path traversal prevention for file access
 Session-based authentication with CSRF protection
 
-Contributing
+# Contributing
 
 Fork the repository
 Create your feature branch (git checkout -b feature/amazing-feature)
@@ -171,9 +170,11 @@ Commit your changes (git commit -m 'Add some amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 
-License
+# License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
+
+# Acknowledgments
 
 Flatpickr for the date picker functionality
 Tide Bank for the financial services that this tool complements
