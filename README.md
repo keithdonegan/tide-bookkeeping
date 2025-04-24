@@ -83,15 +83,16 @@ The db-schema.sql file creates all necessary tables:
 - `categories` - For transaction categorization (with default categories)
 - `transactions` - For storing all financial transactions
 
-### Configure database connection
-
-Copy includes/db_config.sample.php to includes/db_config.php
+4. **Configure database connection**
+```
+Edit `includes/db_config.php`
 Edit the file with your database credentials:
 phpdefine('DB_HOST', 'localhost');
-define('DB_NAME', 'tide_expense_tracker');
+define('DB_NAME', 'DBNAME');
 define('DB_USER', 'your_username');
 define('DB_PASS', 'your_password');
 define('DB_CHARSET', 'utf8mb4');
+```
 
 
 
