@@ -55,7 +55,7 @@ A web-based expense tracking application designed to help businesses manage thei
 └── README.md                        # This file
 ```
 
-This structure includes all the PHP files from your application, showing the complete picture of how the components work together. You can replace the previous structure section with this more comprehensive one in the README.md.RetryClaude can make mistakes. Please double-check responses.
+This structure includes all the PHP files from your application, showing the complete picture of how the components work together. You can replace the previous structure section with this more comprehensive one in the README.md.
 ```
 
 ### Installation
