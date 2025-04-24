@@ -20,7 +20,6 @@ A web-based expense tracking application designed to help businesses manage thei
 - **Frontend**: HTML, CSS, JavaScript (Vanilla JS)
 - **Libraries**: 
   - Flatpickr for date picking
-  - No heavyweight frameworks for faster performance
 
 ## Getting Started
 
