@@ -32,28 +32,28 @@ A web-based expense tracking application designed to help businesses manage thei
 
 ### Project Structure
 ```tide-expense-tracker/
-│── db-schema.sql                  # Complete database schema
-├── includes/                   # Core PHP includes
-│   ├── auth.php                # Authentication handling
-│   └── db_config.php           # Database configuration
-├── uploads/                    # File upload directory
-│   └── invoices/               # Invoice storage with year/month structure
-├── add_category.php            # API for adding new categories
-├── add_comment.php             # Logic for adding transaction comments
-├── delete_category.php         # API for removing categories
-├── delete_invoice.php          # Logic for deleting attached invoices
-├── error_log                   # Application error logs
-├── index.php                   # Main application dashboard
-├── login.php                   # User login interface
-├── logout.php                  # Session termination
-├── manage_categories.php       # Category management interface
-├── save_category.php           # API for updating transaction categories
-├── save_single_comment.php     # API for saving transaction comments
-├── save_transaction_category.php # Alternative category saving endpoint
-├── upload_csv.php              # CSV import functionality
-├── upload_invoice.php          # Invoice upload handler
-├── view_invoice.php            # Invoice viewer
-└── README.md                   # This file
+│── db-schema.sql                   # Complete database schema
+├── includes/                        # Core PHP includes
+│   ├── auth.php                     # Authentication handling
+│   └── db_config.php                # Database configuration
+├── uploads/                         # File upload directory
+│   └── invoices/                    # Invoice storage with year/month structure
+├── add_category.php                 # API for adding new categories
+├── add_comment.php                  # Logic for adding transaction comments
+├── delete_category.php              # API for removing categories
+├── delete_invoice.php               # Logic for deleting attached invoices
+├── error_log                        # Application error logs
+├── index.php                        # Main application dashboard
+├── login.php                        # User login interface
+├── logout.php                       # Session termination
+├── manage_categories.php            # Category management interface
+├── save_category.php                # API for updating transaction categories
+├── save_single_comment.php          # API for saving transaction comments
+├── save_transaction_category.php    # Alternative category saving endpoint
+├── upload_csv.php                   # CSV import functionality
+├── upload_invoice.php               # Invoice upload handler
+├── view_invoice.php                 # Invoice viewer
+└── README.md                        # This file
 ```
 
 This structure includes all the PHP files from your application, showing the complete picture of how the components work together. You can replace the previous structure section with this more comprehensive one in the README.md.RetryClaude can make mistakes. Please double-check responses.
