@@ -175,7 +175,7 @@ if (isset($pdo) && isset($_SESSION['user_id'])) {
     white-space: nowrap;
 }
 
-        
+        .paid-in-total { text-align: right; }
 
         .no-invoice-required { 
             margin-top: 5px; 
@@ -576,7 +576,8 @@ th:hover .resizer {
      <div id="toast-container"></div> 
      
      <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-     <script src="tide_books.js"></script>
+     <script src="js/dates.js"></script>
+     <script src="js/tide_books.js"></script>
      
     </body>
 </html>
