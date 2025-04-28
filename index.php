@@ -107,7 +107,7 @@ if (isset($pdo) && isset($_SESSION['user_id'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Amigos Ltd: Tide Books Dashboard</title>
+    <title>Tide Banking Expense Tracker</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <style>
         /* --- Basic Styles (Keep as is) --- */
@@ -392,7 +392,7 @@ th:hover .resizer {
     </style>
 </head>
 <body>
-    <h1>Web Amigos Ltd: Tide Books Dashboard</h1>
+    <h1>Tide Banking Expense Tracker</h1>
     <a href="logout.php" style="position: absolute; top: 25px; right: 20px; display: inline-block; margin-bottom: 15px; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 3px;">Logout</a>
 
     <?php if ($success_message): ?> <div class="message success"><?php echo htmlspecialchars($success_message); ?></div> <?php endif; ?>
