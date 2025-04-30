@@ -62,7 +62,7 @@ This structure includes all the PHP files from your application, showing the com
 
 1. **Clone the repository**
 ```
-git clone https://github.com/your-username/tide-expense-tracker.git
+git clone https://github.com/keithdonegan/tide-expense-tracker.git
    
 cd tide-expense-tracker
 ```
