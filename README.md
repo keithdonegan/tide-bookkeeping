@@ -131,8 +131,6 @@ Configure your web server
 Point your web server's document root to the project directory
 Ensure PHP is properly configured
 
-
-
 Usage
 Importing Transactions
 
